@@ -5,13 +5,13 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyfuncs",
-    version="0.0.1",
+    version="0.0.2",
     author="zhangzhch",
     author_email="zhangzhch2013@foxmail.com",
     description="common methods",
     long_description=long_description,
     long_description_content_type="text/markdown",
-    url="https://github.com/fishs-x/tornado-async",
+    url="https://github.com/fishs-x/pyfuncs",
     packages=setuptools.find_packages(),
     classifiers=[
         "Programming Language :: Python :: 3",
