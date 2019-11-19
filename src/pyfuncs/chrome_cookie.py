@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# encoding: utf-8
-"""
-@Author: zhichuang.zhang@yiducloud.cn
-@Created on: 2019-11-15 15:20
-"""
 import sys
 import sqlite3
 import getpass
