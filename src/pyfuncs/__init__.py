@@ -1,1 +1,1 @@
-this = 'this a pyfuncs'
+from .chrome_cookie import ChromeCookie

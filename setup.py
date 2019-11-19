@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setuptools.setup(
     name="pyfuncs",
-    version="0.0.3",
+    version="0.0.4",
     author="zhangzhch",
     author_email="zhangzhch2013@foxmail.com",
     description="common methods",
@@ -20,4 +20,8 @@ setuptools.setup(
         "Operating System :: OS Independent",
     ],
     python_requires='>=3.6',
+    install_requires=[
+        "cryptography",
+        "keyring",
+    ]
 )
