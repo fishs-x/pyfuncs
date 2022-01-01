@@ -77,7 +77,7 @@ class ChromeCookie:
         """Mac初始化参数、"""
         self.iterations = 1003
         user = getpass.getuser()
-        self.cookie_path = "/Users/{}/Library/ApplicationSupport/Google/Chrome/Default/Cookies".format(
+        self.cookie_path = "/Users/{}/Library/Application Support/Google/Chrome/Default/Cookies".format(
             user)
         self.my_pass = keyring.get_password(
             'Chrome Safe Storage', 'Chrome').encode("utf8")
